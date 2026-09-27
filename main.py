@@ -1,6 +1,6 @@
-from src.tools.tools import web_search, scrape_url
+from src.pipelines.pipeline import run_research_pipeline
 
-# results = scrape_url("https://www.reddit.com/r/artificial/")
-# print(results)
+topic = "The impact of artificial intelligence on the job market in the next decade"
 
-print(web_search.invoke("What is the best way to learn Python?"))
+
+run_research_pipeline(topic)

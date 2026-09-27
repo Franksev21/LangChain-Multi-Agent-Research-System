@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.env
 build/
 develop-eggs/
 dist/
@@ -148,10 +149,8 @@ activemq-data/
 *.sage.py
 
 # Environments
-.env
 .envrc
 .venv
-env/
 venv/
 ENV/
 env.bak/
